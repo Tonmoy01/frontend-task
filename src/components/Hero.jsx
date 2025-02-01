@@ -7,7 +7,7 @@ import hero from "../assets/hero.png";
 const Hero = () => {
   return (
     <div className="max-w-[1920px] mx-auto bg-[#004464] h-[765px]">
-      <div className="container mx-auto h-screen flex justify-center items-center w-full">
+      <div className="container mx-auto h-screen flex justify-center items-center w-full px-9">
         {/* Left Side */}
         <div className="flex flex-col gap-3 text-white w-1/2">
           <h6 className="text-[18px] font-ubuntu">ELEVATING</h6>

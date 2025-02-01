@@ -46,7 +46,7 @@ const Navbar = () => {
           ))}
           {/* Signup Button */}
         </ul>
-        <button className="flex items-center gap-3 px-6 py-2 bg-[#F15B2D] text-white text-[16px] rounded-[24px] bg-orange">
+        <button className="flex items-center gap-3 px-6 py-2 bg-[#F15B2D] text-white text-[16px] rounded-[24px]">
           Sign Up
           <span>
             <img src={avatar} alt="" />

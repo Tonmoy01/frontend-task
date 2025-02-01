@@ -6,7 +6,7 @@ import hero from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className="max-w-[1920px] mx-auto bg-[#004464] h-screen">
+    <div className="max-w-[1920px] mx-auto bg-[#004464] h-[765px]">
       <div className="container mx-auto h-screen flex justify-center items-center w-full">
         {/* Left Side */}
         <div className="flex flex-col gap-3 text-white w-1/2">

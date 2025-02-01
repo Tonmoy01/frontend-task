@@ -35,8 +35,8 @@ const Cards = () => {
       <div className="container mx-auto">
         <div className="flex gap-8 justify-center">
           {cardData.map((item) => (
-            <div className="-mt-[100px]">
-              <CardItem key={item.id} item={item} />
+            <div key={item.id} className="-mt-[100px]">
+              <CardItem item={item} />
             </div>
           ))}
         </div>

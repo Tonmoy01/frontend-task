@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Cards from "./components/Cards";
+import Cards from "./components/cards/Cards";
 import About from "./components/About";
-import Work from "./components/Work";
+import Works from "./components/works/Works";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Hero />
       <Cards />
       <About />
-      <Work />
+      <Works />
     </>
   );
 };

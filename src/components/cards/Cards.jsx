@@ -1,9 +1,9 @@
 import React from "react";
-
-import card1 from "../assets/icon/card1.png";
-import card2 from "../assets/icon/card2.png";
-import card3 from "../assets/icon/card3.png";
 import CardItem from "./CardItem";
+
+import card1 from "../../assets/icon/card1.png";
+import card2 from "../../assets/icon/card2.png";
+import card3 from "../../assets/icon/card3.png";
 
 const Cards = () => {
   const cardData = [
